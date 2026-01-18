@@ -1,0 +1,135 @@
+
+:root {
+  --color-background: #ffffff;
+  --color-text-dark: #222222;
+  --color-text-light: #f9f9f9;
+  --color-accent: #6b8e23;
+  --font-primary: 'Georgia', serif;
+  --font-secondary: 'Arial', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-secondary);
+  color: var(--color-text-dark);
+  background-color: var(--color-background);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #eee;
+}
+
+.header-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: var(--font-primary);
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: var(--color-text-dark);
+  font-weight: 600;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 60vh;
+  background-color: #f4f4f4;
+  padding: 40px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-family: var(--font-primary);
+  margin-bottom: 10px;
+}
+
+.about-section {
+  padding: 60px 20px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer {
+  padding: 40px;
+  background-color: #222;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-col h4 {
+  border-bottom: 2px solid var(--color-accent);
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+
+/* === MENU SECTION === */
+.menu-section {
+  padding: 80px 20px;
+  background-color: #fff;
+}
+
+.menu-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: var(--color-text-dark);
+}
+
+.menu-intro {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #666;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Crea colonne automatiche */
+  gap: 40px; /* Spazio tra i piatti */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.menu-item {
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 20px;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+.item-header h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-family: var(--font-primary);
+}
+
+.item-header .price {
+  font-weight: bold;
+  color: var(--color-accent);
+  font-size: 1.2rem;
+}
+
+.menu-item p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #555;
+  font-style: italic;
+}
