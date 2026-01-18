@@ -6,7 +6,7 @@ import "./App.css";
 import Header from "./Componente/Header";
 import Home from "./Componente/Home"; // pagina principala
 import Menu from "./Componente/Menu";
-import Reservations from "./Componente/Reservations";
+import Reservations from "./Componente/Reservations"; // mama mea e florareasa
 import Wineries from "./Componente/Wineries";
 import PrivateEvents from "./Componente/Private Events";
 import Contact from "./Componente/Contact";
